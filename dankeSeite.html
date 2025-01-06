@@ -5,6 +5,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vielen Dank für Deine Zahlung!</title>
     <link rel="stylesheet" href="./src/css/styles.css" />
+    <!-- Meta Pixel Code -->
+    <script>
+      !(function (f, b, e, v, n, t, s) {
+        if (f.fbq) return;
+        n = f.fbq = function () {
+          n.callMethod
+            ? n.callMethod.apply(n, arguments)
+            : n.queue.push(arguments);
+        };
+        if (!f._fbq) f._fbq = n;
+        n.push = n;
+        n.loaded = !0;
+        n.version = "2.0";
+        n.queue = [];
+        t = b.createElement(e);
+        t.async = !0;
+        t.src = v;
+        s = b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t, s);
+      })(
+        window,
+        document,
+        "script",
+        "https://connect.facebook.net/en_US/fbevents.js"
+      );
+      fbq("init", "253359104400895");
+      fbq("track", "PageView");
+    </script>
+    <!-- End Meta Pixel Code -->
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-PZC0QPS9YZ"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-PZC0QPS9YZ");
+    </script>
   </head>
   <body>
     <section class="th-section">
@@ -35,6 +78,13 @@
           Falls Du Fragen hast oder Unterstützung brauchst, sind wir immer für
           Dich da – wir begleiten Dich auf Deinem Weg!
         </p>
+        <a
+          href="https://www.instagram.com/xbeauty_by_yuliia_kronberg/"
+          class="header-button"
+          target="_blank"
+          rel="nofollow"
+          >Zurück zu Instagram</a
+        >
         <p class="good-text">
           Dein Traum beginnt jetzt! <br />
           Liebe Grüße, – Dein Team von Yuliia Kronberg und XBeauty Permanent

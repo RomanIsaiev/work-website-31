@@ -110,10 +110,12 @@ p {
   font-weight: 400;
   line-height: 90%; /* 28.8px */
 
-  margin-bottom: 60px;
+  margin-bottom: 40px;
 }
 
 .good-text {
+  margin-top: 40px;
+
   color: #fff;
   text-align: center;
   font-family: "Philosopher";
