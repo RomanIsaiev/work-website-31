@@ -34,6 +34,95 @@ p {
   max-width: 360px;
 }
 
+/* thanks */
+
+.th-section {
+  padding-top: 20%;
+}
+
+.th-title {
+  color: #a890ff;
+  text-align: center;
+  font-family: Philosopher;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 90%; /* 39.2px */
+  letter-spacing: -1.12px;
+  text-transform: uppercase;
+
+  margin-bottom: 20px;
+}
+
+.th-subtitle {
+  color: #fff;
+  text-align: center;
+  font-family: "Philosopher";
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 90%; /* 28.8px */
+
+  margin-bottom: 40px;
+}
+
+.th-subtitle span {
+  font-weight: 600;
+}
+
+.th-title2 {
+  color: #a890ff;
+  text-align: center;
+  font-family: Philosopher;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 90%; /* 39.2px */
+  letter-spacing: -1.12px;
+  text-transform: uppercase;
+
+  margin-bottom: 20px;
+}
+
+.th-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  margin-bottom: 40px;
+}
+
+.th-list .list-item {
+  color: #fff;
+  font-family: "Philosopher";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 90%; /* 28.8px */
+}
+
+.th-desc {
+  color: #fff;
+  text-align: center;
+  font-family: "Philosopher";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 90%; /* 28.8px */
+
+  margin-bottom: 60px;
+}
+
+.good-text {
+  color: #fff;
+  text-align: center;
+  font-family: "Philosopher";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 90%; /* 28.8px */
+}
+
 /* header */
 
 .header-for-whom-background {
@@ -115,6 +204,7 @@ p {
   cursor: pointer;
 
   animation: pulseScale 2000ms infinite;
+  text-decoration: none;
 }
 
 /* header-sale-mark-pink */
